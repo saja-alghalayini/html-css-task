@@ -1,0 +1,52 @@
+.container {
+    border: 8px solid rgb(186, 120, 0);
+    height: 100hv;
+    display: flex ;
+    flex-direction: row;
+   
+  }
+
+ .container div {
+    width: 20%;
+    height: 100vh;
+    display: inline-block;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+  } 
+
+.one {
+    background-color: green;
+  }
+
+.two {
+    background-color: yellow;
+  }
+
+.three {
+    background-color: blueviolet;
+  }
+
+.four {
+    background-color: gray;
+  }
+
+.five {
+    background-color: blue;
+  }
+
+.six {
+    background-color: orange;
+  }
+
+.seven {
+    background-color: lightpink;
+  }
+
+.eight {
+    background-color: red;
+  }
+
+.nine {
+    background-color: brown;
+  }

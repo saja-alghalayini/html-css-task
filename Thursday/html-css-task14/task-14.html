@@ -7,45 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-            <h1>Registration Form!</h1>
-            <form style="border: 1px dashed gray; width: 50%"></form>
-            <h4 style="border-bottom: 1px solid gray; margin: 20px;"></h4>
-
-      <div>
-          <label for="fname">First Name:</label>
-          <input type="text" name="first name" id="fname">
-      
-      
-      <br>
-      <br>
-    
-          <label for="flname">Last Name: </label>
-          <input type="text" name="last name" id="iname">
-      
+    <h1> Registration Form ! </h1>   
+    <form>
+           <fieldset style="width: 30%;">
+                <h2> Personal details </h2>
+                <form style="border: 1px dashed gray; width: 50%"></form>
+                <h4 style="border-bottom: 1px solid gray; margin: 20px;"></h4>
+           <hr>
+           <br>
+                <label for="First name"> First name:</label>
+                <input type="text" id="fname" name="first name"><br>
           <br>
           <br>
-          <label for="email">Email:</label>
-          <input type="text" name="email" id="email">
-     
+                <label for="Last name"> Last name: </label>
+                <input type="text" id="last name" name="last name"><br>
+          <br>
+          <br>
+                <label for="email"> Email: </label>
+                <input type="text" id="email" name="email"><br>
+          <br>
+          <br>
+                <label for="gender"> Gender: </label>
+
+                <input type="radio" id="male" name="classes">
+                <label for="male"> Male </label>
+   
+                <input type="radio" id="Female" name="classes">
+                <label for="Female"> Female </label>
+            
          <br>
          <br>
-          <label for="gender">Gender: </label>
-          <input type="radio" name="classes" id="male">
-          <label for="male">Male</label>
-          <input type="radio" name="classes" id="female">
-          <label for="female">Female</label>
+               <label for="City"> City: </label>
+               <select name="city" id="city">
+   
+               <option value="Amman"> Amman</option>
+               <option value="Aqaba"> Aqaba</option>
 
-       <br>
-        <br>
-       <label for="city">City</label>
-
-        <select name="city" id="city">
-              <option value="amman">Amman</option>
-              <option value="irbid">Irbid</option>
-       </select>
-        <br>
-        <br>
-        <button type="button">Sign Up</button>
-      </div>
+         </select>
+         <br>
+         <br>
+               <button type="button">Sign Up</button>
+        </div>
 </body>
 </html>
